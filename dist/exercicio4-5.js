@@ -1,10 +1,12 @@
-var n = 5;
+var n = 2;
 var funcao = function (nm) {
     if (n % 2 == 0) {
-        console.log('Par');
+        //console.log('Par')
+        return true;
     }
     else {
-        console.log('Ímpar');
+        //console.log('Ímpar')
+        return false;
     }
 };
-funcao(n);
+console.log(funcao(n));
